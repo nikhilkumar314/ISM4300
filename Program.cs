@@ -18,11 +18,10 @@ namespace Classgroupproject1
             string inputGrade = Console.ReadLine();
             int inputvalue = int.Parse(inputGrade);
 
-             int[] Array = new int[100];
-    
 
-          for (int i = 0; i < 4; i++)
-            
+
+            for (int i = 0; i < 4; i++)
+            {
 
                 if (inputvalue >= 90 && inputvalue <= 100)
                 {
@@ -45,13 +44,10 @@ namespace Classgroupproject1
                     Console.WriteLine("You will recieve an F in the class");
                 }
 
-                else
-                {
-                    Console.WriteLine("Please enter an integer");
-                }
+            }
 
             
-            Console.Write(inputName + " " + inputAge + " " + inputGrade);
+            Console.Write(inputName + " " + inputAge + " " + inputGrade + " ");
         }
     }
 }
