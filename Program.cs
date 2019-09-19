@@ -15,14 +15,13 @@ namespace Classgroupproject1
             Console.WriteLine("What is your Age?");
             string inputAge = Console.ReadLine();
             Console.WriteLine("What grade do you expect to get in this class?");
-            string input = null;
             string inputGrade = Console.ReadLine();
-            int inputvalue = int.Parse(input);
+            int inputvalue = int.Parse(inputGrade);
 
-            // int[] Array = new int[100];
-            // Iterate through the array with a Foreach Loop
+             int[] Array = new int[100];
+    
 
-         //   for (int i = 0; i < 4; i++)
+          for (int i = 0; i < 4; i++)
             
 
                 if (inputvalue >= 90 && inputvalue <= 100)
